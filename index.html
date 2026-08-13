@@ -224,7 +224,70 @@ text-align:center;
 padding:30px;
 margin-top:40px;
 }
+/* Order Section */
 
+.order-section{
+text-align:center;
+padding-bottom:70px;
+}
+
+.whatsapp-top{
+display:flex;
+justify-content:center;
+margin-bottom:5px;
+}
+
+.whatsapp-top .whatsapp-btn{
+background:#25D366;
+color:white;
+min-width:250px;
+font-size:18px;
+box-shadow:0 3px 8px rgba(0,0,0,.15);
+}
+
+.order-buttons{
+display:flex;
+justify-content:center;
+align-items:center;
+gap:15px;
+flex-wrap:wrap;
+}
+
+.order-buttons .btn{
+width:250px;
+margin:5px;
+font-size:17px;
+}
+
+.order-buttons .order-btn{
+background:red;
+color:white;
+}
+
+.order-buttons .msg-btn{
+background:#0084ff;
+color:white;
+}
+
+@media(max-width:600px){
+
+.whatsapp-top .whatsapp-btn{
+width:90%;
+}
+
+.order-buttons{
+gap:5px;
+}
+
+.order-buttons .btn{
+width:45%;
+min-width:155px;
+font-size:15px;
+padding:14px 8px;
+}
+
+}
+  
 .sticky{
 position:fixed;
 bottom:0;
