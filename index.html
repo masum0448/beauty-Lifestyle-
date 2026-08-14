@@ -593,6 +593,18 @@ target="_blank">
 🛒 এখনই অর্ডার করুন
 </a>
 </div>
+<script>
+function changeImage(image, element){
 
+    document.getElementById("mainProductImage").src = image;
+
+    document.querySelectorAll(".thumbnail").forEach(function(item){
+        item.classList.remove("active");
+    });
+
+    element.classList.add("active");
+}
+</script>
+    
 </body>
 </html>
